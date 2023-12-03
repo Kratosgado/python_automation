@@ -1,4 +1,6 @@
 import re
+import os
+import csv
 
 def generate_user_report(syslog_file_path):
    # Use a dictionary to count the occurrences of each error message
@@ -19,6 +21,15 @@ def generate_user_report(syslog_file_path):
          if "INFO" in line:
             user_report[username]['infos'] = user_report[username]['infos'] + 1
    sorted_report = dict(sorted(user_report.items()))
+   os.makedirs('user_reports', exist_ok=True)
+   
+   # write each user's report to a separate csv files
+   for username, report in sorted_report.items():
+      report_path = os.path.join('user_reports', username + '.csv')
+      with open(report_path, 'w', newline='') as file:
+         writer = csv.writer(file)
+         writer.writerow(['Username', 'INFO', 'ERROR'])
+         writer.writerow([username, report['infos'], report['errors']])
    print(sorted_report)
 
 def count_errors(syslog_file_path):
@@ -39,5 +50,5 @@ def count_errors(syslog_file_path):
 
 # Example usage:
 syslog_path = "/home/kratosgado/projects/python/python_automation/bash_scripting/log.txt"
-# generate_user_report(syslog_path)
+generate_user_report(syslog_path)
 count_errors(syslog_path)
