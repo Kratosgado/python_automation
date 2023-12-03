@@ -1,10 +1,6 @@
 import re
 
 def generate_user_report(syslog_file_path):
-   # Define a regex pattern for extracting error messages
-   error_pattern = r'ERROR (.+)$'
-   info_pattern = r'INFO (.+)$'
-
    # Use a dictionary to count the occurrences of each error message
    user_report = {}
 
@@ -25,6 +21,23 @@ def generate_user_report(syslog_file_path):
    sorted_report = dict(sorted(user_report.items()))
    print(sorted_report)
 
+def count_errors(syslog_file_path):
+   error_count = {}
+
+   with open(syslog_file_path, 'r') as file:
+      error_pattern = r'ERROR: (.+) - (User .+)$'
+      for line in file:
+         line = line.strip()
+         if "ticky" not in line:
+            continue
+         error_line = re.search(error_pattern, line)
+         if(not error_line):
+            continue
+         error_count[error_line[1]] = error_count.get(error_line[1], 0) + 1
+   sorted_error_count = dict(sorted(error_count.items(), key= lambda item: item[1], reverse=True))
+   print(sorted_error_count)
+
 # Example usage:
 syslog_path = "/home/kratosgado/projects/python/python_automation/bash_scripting/log.txt"
-generate_user_report(syslog_path)
+# generate_user_report(syslog_path)
+count_errors(syslog_path)
