@@ -1,73 +1,73 @@
-Dec 05 10:45:22 server01 my_app: INFO Application started - User: admin
-Dec 05 10:46:03 server01 my_app: ERROR Disk space running low - User: userA
-Dec 05 10:47:15 server01 my_app: WARNING Configuration file changed - User: admin
-Dec 05 10:48:09 server01 my_app: DEBUG Network request received - User: userB
-Dec 05 10:49:30 server01 my_app: ERROR Invalid user input - User: guest
-Dec 05 10:50:18 server01 my_app: INFO User logged in - User: userC
-Dec 05 10:51:45 server01 my_app: ERROR Service unavailable - User: admin
-Dec 05 10:52:29 server01 my_app: DEBUG System event logged - User: userA
-Dec 05 10:53:14 server01 my_app: INFO File downloaded successfully - User: guest
-Dec 05 10:54:02 server01 my_app: ERROR Internal server error - User: userB
-Dec 05 10:55:21 server01 my_app: WARNING Unusual activity detected - User: admin
-Dec 05 10:56:05 server01 my_app: DEBUG Database query executed - User: userC
-Dec 05 10:57:12 server01 my_app: INFO User session expired - User: guest
-Dec 05 10:58:08 server01 my_app: ERROR Database connection failed - User: userA
-Dec 05 10:59:40 server01 my_app: DEBUG Application configuration loaded - User: admin
-Dec 05 11:00:29 server01 my_app: ERROR File not found - User: userB
-Dec 05 11:01:14 server01 my_app: INFO Task completed successfully - User: guest
-Dec 05 11:02:02 server01 my_app: WARNING System update available - User: userC
-Dec 05 11:03:19 server01 my_app: DEBUG User preferences updated - User: admin
-Dec 05 11:04:05 server01 my_app: INFO New user registered - User: userA
-Dec 05 11:05:32 server01 my_app: ERROR Authentication failed - User: guest
-Dec 05 11:06:18 server01 my_app: DEBUG Log file rotation - User: userB
-Dec 05 11:07:27 server01 my_app: INFO Application shutdown - User: admin
-Dec 05 11:08:10 server01 my_app: ERROR Network connection lost - User: userC
-Dec 05 11:09:45 server01 my_app: DEBUG System health check - User: userA
-Dec 05 11:10:30 server01 my_app: INFO User profile updated - User: guest
-Dec 05 11:11:15 server01 my_app: ERROR Database query timeout - User: userB
-Dec 05 11:12:02 server01 my_app: WARNING Security alert - User: admin
-Dec 05 11:13:28 server01 my_app: DEBUG API request received - User: userC
-Dec 05 11:14:20 server01 my_app: ERROR Server crash detected - User: userA
-Dec 05 11:15:11 server01 my_app: INFO Data backup completed - User: guest
-Dec 05 11:16:05 server01 my_app: DEBUG Performance optimization applied - User: admin
-Dec 05 11:17:22 server01 my_app: WARNING Disk usage high - User: userB
-Dec 05 11:18:14 server01 my_app: ERROR File permission error - User: userC
-Dec 05 11:19:03 server01 my_app: DEBUG System log cleared - User: admin
-Dec 05 11:20:30 server01 my_app: INFO User logout - User: userA
-Dec 05 11:21:15 server01 my_app: ERROR Application crash - User: guest
-Dec 05 11:22:02 server01 my_app: WARNING Invalid configuration detected - User: userB
-Dec 05 11:23:18 server01 my_app: DEBUG User activity log generated - User: admin
-Dec 05 11:24:05 server01 my_app: ERROR Database record not found - User: userC
-Dec 05 11:25:21 server01 my_app: INFO System update installed - User: userA
-Dec 05 11:26:10 server01 my_app: WARNING Unresponsive service - User: admin
-Dec 05 11:27:03 server01 my_app: ERROR Disk failure detected - User: userB
-Dec 05 11:28:19 server01 my_app: DEBUG User preferences saved - User: guest
-Dec 05 11:29:05 server01 my_app: INFO Task in progress - User: userC
-Dec 05 11:30:32 server01 my_app: ERROR Network timeout - User: admin
-Dec 05 11:31:18 server01 my_app: WARNING Unexpected behavior observed - User: userA
-Dec 05 11:32:05 server01 my_app: DEBUG Data synchronization completed - User: guest
-Dec 05 11:33:21 server01 my_app: INFO User account deactivated - User: userB
-Dec 05 11:34:10 server01 my_app: ERROR Server overload - User: userC
-Dec 05 10:47:15 server01 my_app: WARNING Configuration file changed - User: admin
-Dec 05 10:48:09 server01 my_app: DEBUG Network request received - User: userB
-Dec 05 10:49:30 server01 my_app: ERROR Invalid user input - User: guest
-Dec 05 10:50:18 server01 my_app: INFO User logged in - User: userC
-Dec 05 10:51:45 server01 my_app: ERROR Service unavailable - User: admin
-Dec 05 10:52:29 server01 my_app: DEBUG System event logged - User: userA
-Dec 05 10:53:14 server01 my_app: INFO File downloaded successfully - User: guest
-Dec 05 10:54:02 server01 my_app: ERROR Internal server error - User: userB
-Dec 05 10:55:21 server01 my_app: WARNING Unusual activity detected - User: admin
-Dec 05 10:56:05 server01 my_app: DEBUG Database query executed - User: userC
-Dec 05 10:57:12 server01 my_app: INFO User session expired - User: guest
-Dec 05 10:58:08 server01 my_app: ERROR Database connection failed - User: userA
-Dec 05 11:28:19 server01 my_app: DEBUG User preferences saved - User: guest
-Dec 05 11:29:05 server01 my_app: INFO Task in progress - User: userC
-Dec 05 11:30:32 server01 my_app: ERROR Network timeout - User: admin
-Dec 05 11:31:18 server01 my_app: WARNING Unexpected behavior observed - User: userA
-Dec 05 11:32:05 server01 my_app: DEBUG Data synchronization completed - User: guest
-Dec 05 11:33:21 server01 my_app: INFO User account deactivated - User: userB
-Dec 05 11:34:10 server01 my_app: ERROR Server overload - User: userC
-Dec 05 10:47:15 server01 my_app: WARNING Configuration file changed - User: admin
-Dec 05 10:48:09 server01 my_app: DEBUG Network request received - User: userB
-Dec 05 10:49:30 server01 my_app: ERROR Invalid user input - User: guest
-Dec 05 10:50:18 server01 my_app: INFO User logged in - User: userC
+Dec 05 10:45:22 server01 ticky: INFO: Application started - User  (admin)
+Dec 05 10:46:03 server01 ticky: ERROR: Disk space running low - User  (userA)
+Dec 05 10:47:15 server01 ticky: WARNING: Configuration file changed - User  (admin)
+Dec 05 10:48:09 server01 ticky: DEBUG: Network request received - User  (userB)
+Dec 05 10:49:30 server01 ticky: ERROR: Invalid user input - User  (guest)
+Dec 05 10:50:18 server01 ticky: INFO: User logged in - User  (userC)
+Dec 05 10:51:45 server01 ticky: ERROR: Service unavailable - User  (admin)
+Dec 05 10:52:29 server01 ticky: DEBUG: System event logged - User  (userA)
+Dec 05 10:53:14 server01 ticky: INFO: File downloaded successfully - User  (guest)
+Dec 05 10:54:02 server01 ticky: ERROR: Internal server error - User  (userB)
+Dec 05 10:55:21 server01 ticky: WARNING: Unusual activity detected - User  (admin)
+Dec 05 10:56:05 server01 ticky: DEBUG: Database query executed - User  (userC)
+Dec 05 10:57:12 server01 ticky: INFO: User session expired - User  (guest)
+Dec 05 10:58:08 server01 ticky: ERROR: Database connection failed - User  (userA)
+Dec 05 10:59:40 server01 ticky: DEBUG: Application configuration loaded - User  (admin)
+Dec 05 11:00:29 server01 ticky: ERROR: File not found - User  (userB)
+Dec 05 11:01:14 server01 ticky: INFO: Task completed successfully - User  (guest)
+Dec 05 11:02:02 server01 ticky: WARNING: System update available - User  (userC)
+Dec 05 11:03:19 server01 ticky: DEBUG: User preferences updated - User  (admin)
+Dec 05 11:04:05 server01 ticky: INFO: New user registered - User  (userA)
+Dec 05 11:05:32 server01 ticky: ERROR: Authentication failed - User  (guest)
+Dec 05 11:06:18 server01 ticky: DEBUG: Log file rotation - User  (userB)
+Dec 05 11:07:27 server01 ticky: INFO: Application shutdown - User  (admin)
+Dec 05 11:08:10 server01 ticky: ERROR: Network connection lost - User  (userC)
+Dec 05 11:09:45 server01 ticky: DEBUG: System health check - User  (userA)
+Dec 05 11:10:30 server01 ticky: INFO: User profile updated - User  (guest)
+Dec 05 11:11:15 server01 ticky: ERROR: Database query timeout - User  (userB)
+Dec 05 11:12:02 server01 ticky: WARNING: Security alert - User  (admin)
+Dec 05 11:13:28 server01 ticky: DEBUG: API request received - User  (userC)
+Dec 05 11:14:20 server01 ticky: ERROR: Server crash detected - User  (userA)
+Dec 05 11:15:11 server01 ticky: INFO: Data backup completed - User  (guest)
+Dec 05 11:16:05 server01 ticky: DEBUG: Performance optimization applied - User  (admin)
+Dec 05 11:17:22 server01 ticky: WARNING: Disk usage high - User  (userB)
+Dec 05 11:18:14 server01 ticky: ERROR: File permission error - User  (userC)
+Dec 05 11:19:03 server01 ticky: DEBUG: System log cleared - User  (admin)
+Dec 05 11:20:30 server01 ticky: INFO: User logout - User  (userA)
+Dec 05 11:21:15 server01 ticky: ERROR: Application crash - User  (guest)
+Dec 05 11:22:02 server01 ticky: WARNING: Invalid configuration detected - User  (userB)
+Dec 05 11:23:18 server01 ticky: DEBUG: User activity log generated - User  (admin)
+Dec 05 11:24:05 server01 ticky: ERROR: Database record not found - User  (userC)
+Dec 05 11:25:21 server01 ticky: INFO: System update installed - User  (userA)
+Dec 05 11:26:10 server01 ticky: WARNING: Unresponsive service - User  (admin)
+Dec 05 11:27:03 server01 ticky: ERROR: Disk failure detected - User  (userB)
+Dec 05 11:28:19 server01 ticky: DEBUG: User preferences saved - User  (guest)
+Dec 05 11:29:05 server01 ticky: INFO: Task in progress - User  (userC)
+Dec 05 11:30:32 server01 ticky: ERROR: Network timeout - User  (admin)
+Dec 05 11:31:18 server01 ticky: WARNING: Unexpected behavior observed - User  (userA)
+Dec 05 11:32:05 server01 ticky: DEBUG: Data synchronization completed - User  (guest)
+Dec 05 11:33:21 server01 ticky: INFO: User account deactivated - User  (userB)
+Dec 05 11:34:10 server01 ticky: ERROR: Server overload - User  (userC)
+Dec 05 10:47:15 server01 ticky: WARNING: Configuration file changed - User  (admin)
+Dec 05 10:48:09 server01 ticky: DEBUG: Network request received - User  (userB)
+Dec 05 10:49:30 server01 ticky: ERROR: Invalid user input - User  (guest)
+Dec 05 10:50:18 server01 ticky: INFO: User logged in - User  (userC)
+Dec 05 10:51:45 server01 ticky: ERROR: Service unavailable - User  (admin)
+Dec 05 10:52:29 server01 ticky: DEBUG: System event logged - User  (userA)
+Dec 05 10:53:14 server01 ticky: INFO: File downloaded successfully - User  (guest)
+Dec 05 10:54:02 server01 ticky: ERROR: Internal server error - User  (userB)
+Dec 05 10:55:21 server01 ticky: WARNING: Unusual activity detected - User  (admin)
+Dec 05 10:56:05 server01 ticky: DEBUG: Database query executed - User  (userC)
+Dec 05 10:57:12 server01 ticky: INFO: User session expired - User  (guest)
+Dec 05 10:58:08 server01 ticky: ERROR: Database connection failed - User  (userA)
+Dec 05 11:28:19 server01 ticky: DEBUG: User preferences saved - User  (guest)
+Dec 05 11:29:05 server01 ticky: INFO: Task in progress - User  (userC)
+Dec 05 11:30:32 server01 ticky: ERROR: Network timeout - User  (admin)
+Dec 05 11:31:18 server01 ticky: WARNING: Unexpected behavior observed - User  (userA)
+Dec 05 11:32:05 server01 ticky: DEBUG: Data synchronization completed - User  (guest)
+Dec 05 11:33:21 server01 ticky: INFO: User account deactivated - User  (userB)
+Dec 05 11:34:10 server01 ticky: ERROR: Server overload - User  (userC)
+Dec 05 10:47:15 server01 ticky: WARNING: Configuration file changed - User  (admin)
+Dec 05 10:48:09 server01 ticky: DEBUG: Network request received - User  (userB)
+Dec 05 10:49:30 server01 ticky: ERROR: Invalid user input - User  (guest)
+Dec 05 10:50:18 server01 ticky: INFO: User logged in - User  (userC)
